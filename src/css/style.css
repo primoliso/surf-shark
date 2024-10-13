@@ -1,0 +1,115 @@
+body {
+    font-family: roboto;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    text-align: center;
+    background: linear-gradient(to left, #161616, #006e92);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+footer {
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+}
+
+input {
+    border: 1px solid black;
+    background-color: #16161698;
+    color: gray;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+#pais {
+    border: 1px solid black;
+    background-color: #16161698;
+    color: gray;
+    border-radius: 7px;
+}
+
+#estado {
+    border: 1px solid black;
+    background-color: #16161698;
+    color: gray;
+    border-radius: 7px;
+}
+
+label {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-weight: bold;
+}
+
+#submit {
+    color: rgb(51, 51, 51);
+    background-color: #006e92;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+} 
+
+#submit:hover {
+    background-color: #00bfff;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40%{transform: translateY(-10px);}
+  60%{transform: translateY(-5px);}
+}
+
+.highlight-text {
+    color: #161616;
+    text-shadow: 2px 0px 3px #005977; /* Adiciona sombra ao texto */
+}
+
+#logo {
+    width: 250px;
+    border-radius: 50%;
+    animation: bounce 2s infinite;
+}
+
+input[type="radio"] {
+            appearance: none; /* Remove a aparência padrão */
+            -webkit-appearance: none; /* Para navegadores Webkit */
+            position: relative;
+            width: 13px;
+            height: 13px;
+            border: 2px solid gray;
+            border-radius: 50%;
+            cursor: pointer;
+            outline: none;
+}
+
+input[type="radio"]:checked {
+            background-color: #00bfff; /* Cor do fundo quando marcado */
+            border-color: gray; /* Cor da borda quando marcado */
+}
+
+
+  
